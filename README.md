@@ -25,7 +25,7 @@ npm install --save twilio-video use-twilio-video-hooks
 
 You need Twilio Access Token to use Twilio Video. You can use Testing Tools in the Twilio Console to generate the token. You can read the [guide here](https://www.twilio.com/docs/video/javascript-v2-getting-started#3-generate-an-access-token).
 
-Or you can also follow the next instruction while running the sample project in folder [example](https://github.com/nlatifahulfah/use-twilio-video/tree/master/example). To run example:
+Or you can also follow the next instruction while running the sample project in folder [example](https://github.com/nlatifahulfah/use-twilio-video-hooks/tree/main/example). To run example:
 
 1. From root repo directory, change directory to example folder: `cd example`
 2. Install dependencies: `npm install`
