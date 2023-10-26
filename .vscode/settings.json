@@ -1,0 +1,38 @@
+{
+  "editor.tabSize": 4,
+  "editor.insertSpaces": false,
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "search.followSymlinks": true,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/.yarn": true,
+    "**/.pnp.*": true
+  },
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/.yarn": true,
+    "**/.gitattributes": true,
+    "**/LICENSE": true,
+    "**/README.md": true
+  },
+  "files.trimFinalNewlines": true,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "files.associations": {
+    "*.js": "javascript",
+    "*.jsx": "javascriptreact",
+    "*.ts": "typescript",
+    "*.tsx": "typescriptreact"
+  },
+  "eslint.validate": [
+    "typescript",
+    "typescriptreact"
+  ],
+  "editor.renderWhitespace": "boundary",
+  // "eslint.nodePath": ".yarn/sdks",
+  // "typescript.tsdk": ".yarn/sdks/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true
+}
