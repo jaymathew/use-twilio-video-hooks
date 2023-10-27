@@ -26,7 +26,10 @@ jobs:
     - name: Build (if necessary)
       run: yarn build
 
+    - name: Set up .npmrc for yarn
+      run: echo "//registry.npmjs.org/:_authToken=$NODE_AUTH_TOKEN" > .npmrc
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
     - name: Publish to npm
       run: yarn publish
-      env:
-        NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
