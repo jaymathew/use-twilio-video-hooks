@@ -19,7 +19,9 @@ jobs:
         node-version: '18'
 
     - name: Install dependencies
-      run: yarn install
+      run: |
+        yarn install
+        yarn install-peers -f
 
     - name: Build (if necessary)
       run: yarn build
