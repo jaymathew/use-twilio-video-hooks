@@ -27,12 +27,13 @@ You need Twilio Access Token to use Twilio Video. You can use Testing Tools in t
 
 Or you can also follow the next instruction while running the sample project in folder [example](https://github.com/nlatifahulfah/use-twilio-video-hooks/tree/main/example). To run example:
 
-1. From root repo directory, change directory to example folder: `cd example`
-2. Install dependencies: `npm install`
-3. Copy .env.example and rename to .env
-4. Add your Twilio API Key to the .env file. You can get your API Key from your Twilio account. You can follow [this guide](https://www.twilio.com/docs/video/javascript-v2-getting-started#2-get-an-api-key).
-5. Run server to generate token: `npm run server`
-6. Open different tab and run the react app: `npm start`
+1. You first have to build the main library, from the root directory build the library with `yarn build`
+2. From root repo directory, change directory to example folder: `cd example`
+3. Install dependencies: `npm install`
+4. Copy .env.example and rename to .env
+5. Add your Twilio API Key to the .env file. You can get your API Key from your Twilio account. You can follow [this guide](https://www.twilio.com/docs/video/javascript-v2-getting-started#2-get-an-api-key).
+6. Run server to generate token: `npm run server`
+7. Open different tab and run the react app: `npm start`
 
 ## Usage
 There are two main hooks, `useRoom` and `useTrack`.
